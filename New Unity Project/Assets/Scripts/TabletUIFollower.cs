@@ -19,6 +19,7 @@ public class TabletUIFollower : MonoBehaviour
 
     void LateUpdate()
     {
+        //follow the attached object on map
         if (obj.gameObject.activeSelf == true)
         {
             Vector3 newPos = obj.position;

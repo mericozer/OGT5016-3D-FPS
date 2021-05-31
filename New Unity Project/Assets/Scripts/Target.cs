@@ -15,15 +15,15 @@ public class Target : MonoBehaviour
 
     void Start()
     {
-        healhtBar.maxValue = health;
-        healhtBar.value = health;
+        healhtBar.maxValue = health; //adjust starting values
+        healhtBar.value = health; //adjust starting values
     }
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
         healhtBar.value = health;
         
-        if (health <= 0 && !isDead)
+        if (health <= 0 && !isDead) //checks if the targets health is zero
         {
             isDead = true;
             explosionOne.Play();

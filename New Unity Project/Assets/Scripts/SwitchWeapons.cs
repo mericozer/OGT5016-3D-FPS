@@ -16,7 +16,7 @@ public class SwitchWeapons : MonoBehaviour
     {
         int currentWeaponIndex = weaponIndex;
         
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f)  //change the weapon index
         {
             if (weaponIndex >= transform.childCount - 1)
             {
@@ -40,23 +40,23 @@ public class SwitchWeapons : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Alpha1)) //gun 1
         {
             weaponIndex = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount > 1)
+        if (Input.GetKeyDown(KeyCode.Alpha2) && transform.childCount > 1) //gun 2 if there is one
         {
             weaponIndex = 1;
         }
-        if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount > 2)
+        if (Input.GetKeyDown(KeyCode.Alpha3) && transform.childCount > 2) //gun 3 if there is one
         {
             weaponIndex = 3;
         }
 
-        if (currentWeaponIndex != weaponIndex)
+        if (currentWeaponIndex != weaponIndex) //if weapon index is not the same with current weapon, make the current weapon the same with the weapon index
         {
             SelectWeapon();
-            CanvasController.instance.ChangeGun();
+            CanvasController.instance.ChangeGun(); //change gun sprite
         }
     }
 

@@ -45,12 +45,12 @@ public class TabletController : MonoBehaviour
         if (isMapActive)
         {
             
-            EditTabletTime(-0.008f);
+            EditTabletTime(-0.008f); //if map active make time decrease
             
             x = Input.GetAxis("Horizontal");
             y = Input.GetAxis("Vertical");
 
-            if (Input.GetKeyDown(KeyCode.F))
+            if (Input.GetKeyDown(KeyCode.F)) //finds the player on the map
             {
                 FocusPlayer();
             }
@@ -73,14 +73,14 @@ public class TabletController : MonoBehaviour
             
         }
 
-        minute = (int) currentTimeLeft / 60;
-        second = (int) currentTimeLeft - (60 * minute);
+        minute = (int) currentTimeLeft / 60; //takes the minutes from total time
+        second = (int) currentTimeLeft - (60 * minute); //takes the seconds from the remains of minutes
 
-        timeLeft.text = minute + ":" + second;
+        timeLeft.text = minute + ":" + second; //turns them into text for canvas
 
     }
 
-    public void FocusPlayer()
+    public void FocusPlayer() //makes camera look to player
     {
         tabletCamera.position = new Vector3(player.position.x, tabletCamera.position.y, player.position.z);
     }

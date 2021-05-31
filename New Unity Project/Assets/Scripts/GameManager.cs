@@ -102,6 +102,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //if any active checkpoint start player from that checkpoint
         if (!isMenu)
         {
             if (PlayerPrefs.HasKey("ActiveCheckPoint"))

@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!isMapActive)
         {
-            isGrounded = Physics.CheckSphere(groundCheck.position, offset, groundLayer);
+            isGrounded = Physics.CheckSphere(groundCheck.position, offset, groundLayer); //checks if player is on the ground
 
             if (isGrounded && velocity.y < 0)
             {

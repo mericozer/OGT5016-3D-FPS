@@ -16,22 +16,23 @@ public class Gun : MonoBehaviour
 
     [SerializeField] private GameObject damageEffect;
 
-    [SerializeField] private int maxAmmo;
-    [SerializeField] private int clipSize;
-    private int currentAmmo;
-    private int currentClip;
+    [SerializeField] private int maxAmmo; //max ammo of gun
+    [SerializeField] private int clipSize; //max bullet a gun can take at one time
+    private int currentAmmo; //how many bullets left in total
+    private int currentClip; //how many bullets left in the gun
 
     private bool isReloading = false;
     private bool isEnabled;
-    private bool isInConvo = false;
-    [SerializeField] private bool isAutomatic;
+    
+    
+    [SerializeField] private bool isAutomatic; //if it is automatic, player can hold down the left mouse button and shoot constantly
     // Start is called before the first frame update
     void Start()
     {
         currentAmmo = maxAmmo;
         currentClip = clipSize;
         
-        CanvasController.instance.EditBulletBar(clipSize, currentClip, maxAmmo);
+        CanvasController.instance.EditBulletBar(clipSize, currentClip, maxAmmo); //edit numbers o canvas
 
         isEnabled = true;
     }
@@ -39,7 +40,7 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!isEnabled)
+        if (!isEnabled) //every time gun changes and gets enabled edit the canvas
         {
             CanvasController.instance.EditBulletBar(clipSize, currentClip, currentAmmo);
         }
@@ -47,9 +48,9 @@ public class Gun : MonoBehaviour
         {
             return;
         }
-        if (currentClip <= 0)
+        if (currentClip <= 0) 
         {
-            if (Input.GetKey(KeyCode.R))
+            if (Input.GetKey(KeyCode.R)) //if bullet ends in gun, player can reload
             {
                 StartCoroutine(Reload());
                 
@@ -57,13 +58,13 @@ public class Gun : MonoBehaviour
             return;
         }
         
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKey(KeyCode.R)) //if bullet ends in gun, player can reload
         {
             StartCoroutine(Reload());
             return;
         }
 
-        if (isAutomatic)
+        if (isAutomatic) //shooting style change getkey vs getkeydown
         {
             if (Input.GetKey(KeyCode.Mouse0) && nextShootingTime <= Time.time)
             {
@@ -94,14 +95,14 @@ public class Gun : MonoBehaviour
         yield return new WaitForSeconds(reloadTime);
         
         //ammo reload u cilala
-        if (currentAmmo >= clipSize)
+        if (currentAmmo >= clipSize) //if there are bullets more than clipsize, it can fill whole clip
         {
-            if (currentClip > 0)
+            if (currentClip > 0) //if clip is empty
             {
                 currentAmmo -= (clipSize - currentClip);
                 currentClip = clipSize;
             }
-            else
+            else //if there are bullets in clip but player still reloads
             {
                 currentClip = clipSize;
                 currentAmmo -= clipSize;
@@ -120,28 +121,22 @@ public class Gun : MonoBehaviour
 
     private void Shoot()
     {
-        //TO DO
         shootingEffect.Play();
         
-        
-        //Debug.Log("CURRENT CLIP COUNT IS: " + currentClip);
         RaycastHit hit;
-        if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward, out hit, range ))
+        if (Physics.Raycast(mainCamera.transform.position,mainCamera.transform.forward, out hit, range )) //shooting ray
         {
             
-            
-            if (hit.collider != null)
+            if (hit.collider != null) //checks if it hit sometihng
             {
                 GameObject damageEffectGO = Instantiate(damageEffect, hit.point, Quaternion.LookRotation(hit.normal));
                 
                 Target target = hit.transform.GetComponent<Target>();
 
-                if (target != null)
+                if (target != null) //checks if the object is a target
                 {
                     damageEffectGO.transform.parent = target.gameObject.transform;
                     target.TakeDamage(damage);
-                   
-                    //damageEffectGO.GetComponent<DestroyAfterTimeParticle>().QuickDestroy(0.1f);
                 }
             }
 
@@ -151,13 +146,13 @@ public class Gun : MonoBehaviour
         
     }
     
-
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawWireSphere(transform.position, range);
     }
 
+    //flag for disabling the object
     void OnDisable()
     {
         isEnabled = false;

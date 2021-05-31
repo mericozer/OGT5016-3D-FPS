@@ -55,7 +55,7 @@ public class EnemyController : MonoBehaviour
         
         if (distance <= maxRange)
         {
-            if (angle <= 120) //enemy sees the player
+            if (angle <= 160) //enemy sees the player
             {
                 //Shout(); //shout sound
                 
@@ -95,7 +95,7 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    //enemy attack in every 3 seconds
+    //enemy attack in every 0.7 seconds
     public void Attack()
     {
         //?

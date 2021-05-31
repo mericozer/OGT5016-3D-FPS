@@ -22,10 +22,10 @@ public class FirstPersonCamera : MonoBehaviour
         float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
         rotationAmount -= mouseY;
-        rotationAmount = Mathf.Clamp(rotationAmount, -90f, 90f);
+        rotationAmount = Mathf.Clamp(rotationAmount, -90f, 90f); //limit the mouse angles of Y axis
 
         transform.localRotation = Quaternion.Euler(rotationAmount, 0f, 0f);
         
-        player.Rotate(Vector3.up * mouseX);
+        player.Rotate(Vector3.up * mouseX); //make player rotate with camera
     }
 }

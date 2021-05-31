@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class CheckPointController : MonoBehaviour
 {
-    public bool isActive = false;
-    private bool isTriggered = false;
+    
+    public bool isActive = false; //checkpoint activated
+    private bool isTriggered = false; //player is near to the checkpoint
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +22,11 @@ public class CheckPointController : MonoBehaviour
             {
                 CanvasController.instance.CustomInteractiveText(false, "");
                 
-                CheckPointManager.instance.DeactivateCheckPoints();
+                CheckPointManager.instance.DeactivateCheckPoints();  //if any other checkpoint is active close them
 
-                isActive = true;
+                isActive = true; //make this checkpoint active
                 
-                CheckPointManager.instance.GetActiveCheckPointIndex();
+                CheckPointManager.instance.GetActiveCheckPointIndex(); //save this checkpoint to playerpref as the active one
             }
         }
     }

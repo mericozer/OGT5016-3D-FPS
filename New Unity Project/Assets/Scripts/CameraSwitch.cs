@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CameraSwitch : MonoBehaviour
 {
-    public GameObject cameraOne;
+    public GameObject cameraOne; //First person camera
 
-    public GameObject cameraTwo;
+    public GameObject cameraTwo; //Map camera
 
-    public GameObject canvasOne;
+    public GameObject canvasOne; //Main Canvas
 
-    public GameObject canvasTwo;
+    public GameObject canvasTwo; //Map panel
 
-    public GameObject light;
+    public GameObject light; //Directional light goes off when map is open
 
     private bool isMapActive = false;
     // Start is called before the first frame update
@@ -20,6 +20,7 @@ public class CameraSwitch : MonoBehaviour
     {
         isMapActive = false;
         
+        //always start with fps
         cameraTwo.SetActive(false);
         canvasTwo.SetActive(false);
         cameraOne.SetActive(true);
@@ -29,6 +30,7 @@ public class CameraSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //if battery time finished, player cannot open tablet
         if (TabletController.instance.isTimeFinished)
         {
             Activate(false);
@@ -42,6 +44,7 @@ public class CameraSwitch : MonoBehaviour
                 {
                     Activate(true);
                 }
+                //if battery is finished, warning shows up
                 else
                 {
                     StartCoroutine(CanvasController.instance.PeriodicText(2f, "Tablet needs charging"));
@@ -59,6 +62,8 @@ public class CameraSwitch : MonoBehaviour
         
     }
 
+    //opens and closes map
+    //adjust canvas
     void Activate(bool map)
     {
         cameraTwo.SetActive(map);

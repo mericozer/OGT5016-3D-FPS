@@ -35,13 +35,10 @@ public class CanvasController : MonoBehaviour
      [SerializeField] private GameObject pausePanel; 
      [SerializeField] private GameObject winPanel;
      [SerializeField] private GameObject losePanel;
-    // [SerializeField] private GameObject filler; //batter slider filler image
+   
      
-     //private Color red; //battery low percentage color
-     //private Color yellow; //battery medium percentage color
-     //private Color green; //battery high percentage color
-
      [SerializeField] private Image gunImage;
+     
      [SerializeField] private Sprite shotGun;
      [SerializeField] private Sprite autoGun;
      
@@ -67,16 +64,11 @@ public class CanvasController : MonoBehaviour
         healthBar.value = currenHealth;
         gunImage.sprite = shotGun;
         
-        //save system will be added
+        //TO DO
+        //SAVE SYSTEM WILL BE ADDED 
         //batteryPercantage = PlayerPrefs.GetFloat("BatteryPercentage"); //assign the saved value for battery
         //battery.value = batteryPercantage;
-
-
-        //ColorUtility.TryParseHtmlString("#CE1212", out red); //assign red color
-        //ColorUtility.TryParseHtmlString("#184D47", out green); //assign green color
-        //ColorUtility.TryParseHtmlString("#FDCA40", out yellow); //assign yellow clor
-
-        //ColorValueChecker();
+        
 
         //if player talked with NPC, battery starts to drain
         /*if (PlayerPrefs.GetInt("Talk") == 1)
@@ -125,6 +117,7 @@ public class CanvasController : MonoBehaviour
         }
     }
 
+    //edits ammo text when gun change
     public void EditBulletBar(float clipSize, float currentBullet, float maxBullet)
     {
         bulletBar.maxValue = clipSize;
@@ -133,12 +126,14 @@ public class CanvasController : MonoBehaviour
         currentMaxBulletText.text = maxBullet.ToString();
     }
 
+    //decrease ammo number
     public void Shoot(float bulletCount)
     {
         curretBulletText.text = bulletCount.ToString();
         bulletBar.value = bulletCount;
     }
     
+    //adjust ammo numbers when reload
     public void Reload(float clipSize, float maxBullet)
     {
         curretBulletText.text = clipSize.ToString();
@@ -146,6 +141,7 @@ public class CanvasController : MonoBehaviour
         bulletBar.value = clipSize;
     }
 
+    //change gun sprite
     public void ChangeGun()
     {
         if (isShotGun)
@@ -236,7 +232,7 @@ public class CanvasController : MonoBehaviour
         }
     }
     
-
+    //informative texts which shows up for a limited time
     public IEnumerator PeriodicText(float time, string s)
     {
         interactableText.text = s;
@@ -245,45 +241,5 @@ public class CanvasController : MonoBehaviour
         interactableText.text = "";
 
     }
-    
-    //checks the battery(health) percantage
-    //if percentage is medium changes color to yellow
-    //if percantage is low changes color to red
-    /*private void ColorValueChecker()
-    {
-        int c;
-        
-        if (battery.value >= battery.maxValue/2)
-        {
-            c = 0;
-            if (c != batteryColorValue)
-            {
-              
-                filler.GetComponent<Image>().color = green;
-                batteryColorValue = c;
-            }
-        }
-        else if (battery.value > battery.maxValue/4 )
-        {
-            c = 1;
-            if (c != batteryColorValue)
-            {
-              
-                filler.GetComponent<Image>().color = yellow;
-                batteryColorValue = c;
-            }
-        }
-        else
-        {
-            c = 2;
-            if (c != batteryColorValue)
-            {
-                filler.GetComponent<Image>().color = red;
-                batteryColorValue = c;
-            }
-        }
-    }*/
-    
-    
 
 }

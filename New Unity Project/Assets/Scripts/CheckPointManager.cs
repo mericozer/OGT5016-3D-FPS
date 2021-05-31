@@ -21,12 +21,9 @@ public class CheckPointManager : MonoBehaviour
     {
         
     }
+    
 
-    public void DetectCheckPoint()
-    {
-       
-    }
-
+    //makes all checkpoints inactive
     public void DeactivateCheckPoints()
     {
         Debug.Log("i delete the check");
@@ -36,6 +33,7 @@ public class CheckPointManager : MonoBehaviour
         }
     }
 
+    //takes the active checkpoint and saves its index to playerpref
     public void GetActiveCheckPointIndex()
     {
         Debug.Log("i get the check");
@@ -52,6 +50,8 @@ public class CheckPointManager : MonoBehaviour
         }
     }
 
+    //when the game starts if any checkpoint is active
+    //take the active checkpoints index and put player on that checkpoints position
     public void ActivateCurrentCheckPoint()
     {
         Transform obj = gameObject.transform.GetChild(PlayerPrefs.GetInt("ActiveCheckPoint"));
