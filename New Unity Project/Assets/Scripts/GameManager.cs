@@ -185,14 +185,18 @@ public class GameManager : MonoBehaviour
     //except volume, screen setting
     public void DeleteSaves()
     {
-        //buttontext.color = disabled;
-        //continueButton.GetComponent<Button>().interactable = false;
-       // int screen = PlayerPrefs.GetInt("FullScreen");
-        //float volume = PlayerPrefs.GetFloat("Volume");
+        if (isMenu)
+        {
+            buttontext.color = disabled;
+            continueButton.GetComponent<Button>().interactable = false;
+        }
+       
+        int screen = PlayerPrefs.GetInt("FullScreen");
+        float volume = PlayerPrefs.GetFloat("Volume");
         PlayerPrefs.DeleteAll();
-        //PlayerPrefs.SetInt("Fullscreen", screen);
-        //PlayerPrefs.SetInt("Talk" , 0);
-        //PlayerPrefs.SetFloat("Volume" , volume);
+        PlayerPrefs.SetInt("Fullscreen", screen);
+        PlayerPrefs.SetInt("Talk" , 0);
+        PlayerPrefs.SetFloat("Volume" , volume);
     }
 
     //cloese the game

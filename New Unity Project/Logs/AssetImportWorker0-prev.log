@@ -15,11 +15,11 @@ D:/PC/Documents/OGT5016-3D-FPS/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54291
+61705
 Successfully changed project path to: D:/PC/Documents/OGT5016-3D-FPS/New Unity Project
 D:/PC/Documents/OGT5016-3D-FPS/New Unity Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -37,120 +37,125 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004574 seconds.
+Registered in 0.003456 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 34.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.05 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.849 seconds
+- Completed reload, in  2.796 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000686 seconds.
+Registered in 0.000726 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.986 seconds
+- Completed reload, in  1.091 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1175 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.8 MB.
-System memory in use after: 135.9 MB.
+Unloading 1179 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1631.
-Total: 3.746900 ms (FindLiveObjects: 0.341800 ms CreateObjectMapping: 0.204000 ms MarkObjects: 3.005700 ms  DeleteObjects: 0.193400 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 2.123800 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.753900 ms  DeleteObjects: 0.165600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/SwitchWeapons.cs
-  artifactKey: Guid(6957cbf7ee2115f40a0f4d0189af98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SwitchWeapons.cs using Guid(6957cbf7ee2115f40a0f4d0189af98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa2db9ea668bb60b7cd42d114a43e80') in 0.161925 seconds
-  Import took 0.176932 seconds .
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb05811a4b94938c88245c663ea1ab0') in 0.048902 seconds
+  Import took 0.051581 seconds .
+
+========================================================================
+Received Prepare
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.7 MB.
+System memory in use after: 111.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1637.
+Total: 3.335800 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.074800 ms MarkObjects: 2.917500 ms  DeleteObjects: 0.141500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000722 seconds.
+Registered in 0.000690 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
+- Completed reload, in  0.956 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.7 MB.
-System memory in use after: 133.8 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1634.
-Total: 3.122300 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.705200 ms  DeleteObjects: 0.108000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1640.
+Total: 2.322200 ms (FindLiveObjects: 0.168000 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.910200 ms  DeleteObjects: 0.189100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000836 seconds.
+Registered in 0.000879 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.904 seconds
+- Completed reload, in  1.245 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.8 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1637.
-Total: 1.824600 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.542300 ms  DeleteObjects: 0.078800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 238.375108 seconds.
-  path: Assets/Scripts/TabletController.cs
-  artifactKey: Guid(ffccd3f4c05f2684a9ab0ccb033dd626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TabletController.cs using Guid(ffccd3f4c05f2684a9ab0ccb033dd626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac70a0de00db8c4c0be9e5064cae4197') in 0.135419 seconds
-  Import took 0.139383 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1643.
+Total: 3.293300 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.186200 ms MarkObjects: 2.720100 ms  DeleteObjects: 0.120400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000930 seconds.
+Registered in 0.000667 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -160,117 +165,109 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.940 seconds
+- Completed reload, in  0.978 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1640.
-Total: 2.824700 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.041600 ms MarkObjects: 2.535100 ms  DeleteObjects: 0.079800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.244326 seconds.
-  path: Assets/Scripts/TabletController.cs
-  artifactKey: Guid(ffccd3f4c05f2684a9ab0ccb033dd626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TabletController.cs using Guid(ffccd3f4c05f2684a9ab0ccb033dd626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddfe1d4ef537232878c6ce2136e6e6c') in 0.003968 seconds
-  Import took 0.006692 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000749 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1643.
-Total: 2.192200 ms (FindLiveObjects: 0.153200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 1.870700 ms  DeleteObjects: 0.079800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 453.305746 seconds.
-  path: Assets/Scripts/TabletController.cs
-  artifactKey: Guid(ffccd3f4c05f2684a9ab0ccb033dd626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TabletController.cs using Guid(ffccd3f4c05f2684a9ab0ccb033dd626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4bd516b167b5d3eab5b7790770a5b6') in 0.003440 seconds
-  Import took 0.005717 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000716 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.7 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1646.
-Total: 2.037800 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.713200 ms  DeleteObjects: 0.090600 ms)
+Total: 2.053400 ms (FindLiveObjects: 0.165100 ms CreateObjectMapping: 0.066900 ms MarkObjects: 1.710400 ms  DeleteObjects: 0.109800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000675 seconds.
+Registered in 0.000989 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.010 seconds
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1649.
+Total: 2.676700 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.056400 ms MarkObjects: 2.300400 ms  DeleteObjects: 0.116700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.006 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.6 MB.
+System memory in use after: 134.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1652.
+Total: 2.339100 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.991600 ms  DeleteObjects: 0.129700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4197.382036 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(3e005b6fa9dae024cb2ed35c72c9b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(3e005b6fa9dae024cb2ed35c72c9b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3939b5f9454ad8294b7b258e69188c3') in 0.210737 seconds
+  Import took 0.215179 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 138.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1649.
-Total: 2.429600 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.129600 ms MarkObjects: 1.935300 ms  DeleteObjects: 0.121300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
+Total: 2.355100 ms (FindLiveObjects: 0.196400 ms CreateObjectMapping: 0.066200 ms MarkObjects: 1.947500 ms  DeleteObjects: 0.143800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000783 seconds.
+Registered in 0.000707 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -280,49 +277,65 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
+- Completed reload, in  0.995 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.9 MB.
+System memory in use after: 138.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1652.
-Total: 3.164500 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.051200 ms MarkObjects: 2.840400 ms  DeleteObjects: 0.095600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
+Total: 2.471600 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.038700 ms MarkObjects: 2.051700 ms  DeleteObjects: 0.168700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 195.085976 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(3e005b6fa9dae024cb2ed35c72c9b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(3e005b6fa9dae024cb2ed35c72c9b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926f2e4878f34d28bd088a970778e496') in 0.072239 seconds
+  Import took 0.074921 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000733 seconds.
+Registered in 0.000723 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
+- Completed reload, in  1.033 seconds
 Platform modules already initialized, skipping
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.0 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1655.
-Total: 2.306600 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.990800 ms  DeleteObjects: 0.089000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1702.
+Total: 3.173200 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.078900 ms MarkObjects: 2.576400 ms  DeleteObjects: 0.201200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.449901 seconds.
+  path: Assets/Scenes/Level1DQ.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1DQ.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feb910457961806e427a608c3f05377f') in 0.028620 seconds
+  Import took 0.031582 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000765 seconds.
+Registered in 0.000704 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -338,684 +351,28 @@ Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not 
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1658.
-Total: 2.253400 ms (FindLiveObjects: 0.193700 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.925100 ms  DeleteObjects: 0.091900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001364 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1661.
-Total: 2.763200 ms (FindLiveObjects: 0.399200 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.140900 ms  DeleteObjects: 0.177000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000956 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1664.
-Total: 2.165200 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.042300 ms MarkObjects: 1.809900 ms  DeleteObjects: 0.122000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.998 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1667.
-Total: 2.886800 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.054300 ms MarkObjects: 2.510800 ms  DeleteObjects: 0.105100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000695 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1670.
-Total: 3.166600 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.064500 ms MarkObjects: 2.705500 ms  DeleteObjects: 0.125100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000666 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.8 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1673.
-Total: 2.172300 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.083000 ms MarkObjects: 1.721100 ms  DeleteObjects: 0.126400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000740 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1676.
-Total: 2.317300 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.992600 ms  DeleteObjects: 0.093600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000728 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1679.
-Total: 2.190200 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.834200 ms  DeleteObjects: 0.132400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000663 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1682.
-Total: 2.260500 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.058200 ms MarkObjects: 1.854700 ms  DeleteObjects: 0.195400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000974 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1144 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 133.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1685.
-Total: 2.336300 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.005700 ms  DeleteObjects: 0.095400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000886 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1689.
-Total: 2.528600 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.098200 ms  DeleteObjects: 0.128700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001072 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1692.
-Total: 3.014000 ms (FindLiveObjects: 0.368900 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.379500 ms  DeleteObjects: 0.129300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000893 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1695.
-Total: 2.369500 ms (FindLiveObjects: 0.173600 ms CreateObjectMapping: 0.045500 ms MarkObjects: 2.018500 ms  DeleteObjects: 0.130700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000719 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1698.
-Total: 3.046100 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.046600 ms MarkObjects: 2.598000 ms  DeleteObjects: 0.109000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000724 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.948 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1701.
-Total: 2.107500 ms (FindLiveObjects: 0.254900 ms CreateObjectMapping: 0.059700 ms MarkObjects: 1.710500 ms  DeleteObjects: 0.081200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000687 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1704.
-Total: 2.690300 ms (FindLiveObjects: 0.187600 ms CreateObjectMapping: 0.042100 ms MarkObjects: 2.330500 ms  DeleteObjects: 0.128800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000756 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 133.9 MB.
-System memory in use after: 134.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1707.
-Total: 2.986600 ms (FindLiveObjects: 0.192000 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.631500 ms  DeleteObjects: 0.091900 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1705.
+Total: 3.303000 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.118900 ms MarkObjects: 2.723800 ms  DeleteObjects: 0.170300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3449.667396 seconds.
+  Time since last request: 1023.957924 seconds.
   path: Assets/Scenes/Level1DQ.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1DQ.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d63fa72f1877813770e2a8f98b731') in 0.020986 seconds
-  Import took 0.023822 seconds .
+Start importing Assets/Scenes/Level1DQ.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001e3fab906ee2ce8d67f8a6da3e86c2') in 0.020830 seconds
+  Import took 0.025045 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.760148 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(768eba911c4385f40aed7a4a1b44e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(768eba911c4385f40aed7a4a1b44e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58c9537cef212be426147fe11e93243') in 0.009475 seconds
-  Import took 0.012110 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000797 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1710.
-Total: 2.695900 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.251000 ms  DeleteObjects: 0.167500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000639 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1713.
-Total: 2.203200 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.043500 ms MarkObjects: 1.828200 ms  DeleteObjects: 0.120200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 152.096511 seconds.
-  path: Assets/Scenes/Level1DQ 1.unity
-  artifactKey: Guid(909c4ce35877e1943bb29095e14026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1DQ 1.unity using Guid(909c4ce35877e1943bb29095e14026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1977181bfa29591247b9f3837d934831') in 0.016613 seconds
-  Import took 0.133395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.963330 seconds.
-  path: Assets/Scenes/Test Scene DQ.unity
-  artifactKey: Guid(909c4ce35877e1943bb29095e14026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test Scene DQ.unity using Guid(909c4ce35877e1943bb29095e14026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf425fb340da84d0af69aa89b66866ef') in 0.009871 seconds
-  Import took 0.013991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005231 seconds.
-  path: Assets/Scenes/Test Scene DQ.unity
-  artifactKey: Guid(909c4ce35877e1943bb29095e14026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test Scene DQ.unity using Guid(909c4ce35877e1943bb29095e14026a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf425fb340da84d0af69aa89b66866ef') in 0.002295 seconds
-  Import took 0.004614 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000601 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1716.
-Total: 2.448900 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.077200 ms  DeleteObjects: 0.121300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000732 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1719.
-Total: 2.326600 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.068500 ms MarkObjects: 1.931400 ms  DeleteObjects: 0.093000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001051 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.405 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1722.
-Total: 2.458500 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.087100 ms MarkObjects: 2.004500 ms  DeleteObjects: 0.101000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 289.308304 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(768eba911c4385f40aed7a4a1b44e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(768eba911c4385f40aed7a4a1b44e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4913c77718f310bdf348bde0928262') in 0.014630 seconds
-  Import took 0.017369 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000901 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1725.
-Total: 2.313800 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.089300 ms MarkObjects: 1.790400 ms  DeleteObjects: 0.145200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000837 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1728.
-Total: 2.104000 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.086500 ms MarkObjects: 1.586600 ms  DeleteObjects: 0.117900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.0 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1731.
-Total: 1.828700 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.520800 ms  DeleteObjects: 0.082700 ms)
+  Time since last request: 0.001624 seconds.
+  path: Assets/Scenes/Level1DQ.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1DQ.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001e3fab906ee2ce8d67f8a6da3e86c2') in 0.002563 seconds
+  Import took 0.006102 seconds .
 
 ========================================================================
 Received Prepare
@@ -1024,329 +381,55 @@ Registered in 0.000692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.940 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1734.
-Total: 2.370100 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.000000 ms  DeleteObjects: 0.123700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001416 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1737.
-Total: 3.092800 ms (FindLiveObjects: 0.225700 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.678500 ms  DeleteObjects: 0.138600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1740.
-Total: 2.474400 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.082300 ms MarkObjects: 1.991800 ms  DeleteObjects: 0.122000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001481 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1743.
-Total: 2.146200 ms (FindLiveObjects: 0.208100 ms CreateObjectMapping: 0.042000 ms MarkObjects: 1.779700 ms  DeleteObjects: 0.115500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001118 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1746.
-Total: 2.268100 ms (FindLiveObjects: 0.218900 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.882700 ms  DeleteObjects: 0.120200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001000 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1749.
-Total: 2.151500 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.069900 ms MarkObjects: 1.714100 ms  DeleteObjects: 0.123700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000938 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1752.
-Total: 2.523800 ms (FindLiveObjects: 0.371000 ms CreateObjectMapping: 0.092700 ms MarkObjects: 1.942800 ms  DeleteObjects: 0.115700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000895 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  0.964 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1755.
-Total: 1.894200 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.523300 ms  DeleteObjects: 0.122400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000711 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
-Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.1 MB.
-System memory in use after: 134.2 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1758.
-Total: 2.496400 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.046000 ms MarkObjects: 2.104700 ms  DeleteObjects: 0.143000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2404.848647 seconds.
-  path: Assets/Sprites/robot symbol.png
-  artifactKey: Guid(785a079a4fcaccc498933fe1582fc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/robot symbol.png using Guid(785a079a4fcaccc498933fe1582fc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbdffd415688cf56493f44f7f71f914') in 0.085360 seconds
-  Import took 0.089683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.078774 seconds.
-  path: Assets/Sprites/robot symbol.png
-  artifactKey: Guid(785a079a4fcaccc498933fe1582fc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/robot symbol.png using Guid(785a079a4fcaccc498933fe1582fc54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381a74c3ddadcbecf08ad3bdc12c88b7') in 0.071234 seconds
-  Import took 0.074490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 162.547589 seconds.
-  path: Assets/Sprites/player symbol.png
-  artifactKey: Guid(763481ac7a0473442b3b5f266ca8e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/player symbol.png using Guid(763481ac7a0473442b3b5f266ca8e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f13f554fd8fc3861873edfec628ca91') in 0.109588 seconds
-  Import took 0.113199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.590671 seconds.
-  path: Assets/Sprites/player symbol.png
-  artifactKey: Guid(763481ac7a0473442b3b5f266ca8e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/player symbol.png using Guid(763481ac7a0473442b3b5f266ca8e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b3a6388a6feda624548838edc34ee8') in 0.030863 seconds
-  Import took 0.034018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006649 seconds.
-  path: Assets/Sprites/player symbol.png
-  artifactKey: Guid(763481ac7a0473442b3b5f266ca8e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/player symbol.png using Guid(763481ac7a0473442b3b5f266ca8e3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b3a6388a6feda624548838edc34ee8') in 0.027863 seconds
-  Import took 0.031193 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1708.
+Total: 2.713000 ms (FindLiveObjects: 0.199300 ms CreateObjectMapping: 0.047400 ms MarkObjects: 2.321700 ms  DeleteObjects: 0.142800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001135 seconds.
+Registered in 0.001068 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  1.012 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.2 MB.
-System memory in use after: 137.3 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1770.
-Total: 2.131700 ms (FindLiveObjects: 0.158300 ms CreateObjectMapping: 0.038200 ms MarkObjects: 1.857600 ms  DeleteObjects: 0.075600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 2.459100 ms (FindLiveObjects: 0.251100 ms CreateObjectMapping: 0.044600 ms MarkObjects: 2.026500 ms  DeleteObjects: 0.135400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000769 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.2 MB.
-System memory in use after: 137.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1773.
-Total: 3.343500 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.090700 ms MarkObjects: 2.852100 ms  DeleteObjects: 0.154400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000689 seconds.
+Registered in 0.001296 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1356,367 +439,49 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
+- Completed reload, in  1.116 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.2 MB.
-System memory in use after: 137.3 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1776.
-Total: 2.172200 ms (FindLiveObjects: 0.215800 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.730500 ms  DeleteObjects: 0.180700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 198.386687 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7056b348f2f01c234a68c532bd7a184') in 0.029421 seconds
-  Import took 0.033106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002713 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7056b348f2f01c234a68c532bd7a184') in 0.002211 seconds
-  Import took 0.005617 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1714.
+Total: 2.978600 ms (FindLiveObjects: 0.323000 ms CreateObjectMapping: 0.080700 ms MarkObjects: 2.412000 ms  DeleteObjects: 0.161300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000727 seconds.
+Registered in 0.000949 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  1.069 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.1 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1779.
-Total: 2.157200 ms (FindLiveObjects: 0.176700 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.863200 ms  DeleteObjects: 0.075600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1717.
+Total: 4.156500 ms (FindLiveObjects: 0.237200 ms CreateObjectMapping: 0.048300 ms MarkObjects: 3.677200 ms  DeleteObjects: 0.192100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000888 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1782.
-Total: 2.008000 ms (FindLiveObjects: 0.151400 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.734900 ms  DeleteObjects: 0.079200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000768 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1785.
-Total: 2.263300 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.840300 ms  DeleteObjects: 0.089200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000887 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.297 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1788.
-Total: 2.586000 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.047200 ms MarkObjects: 2.249700 ms  DeleteObjects: 0.090400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2332.430044 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(768eba911c4385f40aed7a4a1b44e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(768eba911c4385f40aed7a4a1b44e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7905242a7895441b2becfb54a452c83') in 0.022347 seconds
-  Import took 0.025046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.280371 seconds.
-  path: Assets/Scenes/Level1DQ.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Level1DQ.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51feb0144e20bd3f6fc9d4529372d0b4') in 0.008395 seconds
-  Import took 0.011391 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1791.
-Total: 2.766600 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.233400 ms  DeleteObjects: 0.100900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000878 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1794.
-Total: 2.987000 ms (FindLiveObjects: 0.382200 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.438200 ms  DeleteObjects: 0.120300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000691 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.972 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1797.
-Total: 2.310600 ms (FindLiveObjects: 0.239200 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.845900 ms  DeleteObjects: 0.155200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000748 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.3 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1800.
-Total: 2.288400 ms (FindLiveObjects: 0.227500 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.892100 ms  DeleteObjects: 0.120600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.072 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1803.
-Total: 2.404600 ms (FindLiveObjects: 0.341700 ms CreateObjectMapping: 0.048400 ms MarkObjects: 1.892400 ms  DeleteObjects: 0.120500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000680 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1806.
-Total: 2.439100 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.044600 ms MarkObjects: 2.050500 ms  DeleteObjects: 0.127800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000889 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1809.
-Total: 3.407400 ms (FindLiveObjects: 0.866400 ms CreateObjectMapping: 0.149700 ms MarkObjects: 2.239700 ms  DeleteObjects: 0.150500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000687 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1812.
-Total: 2.533400 ms (FindLiveObjects: 0.247500 ms CreateObjectMapping: 0.057300 ms MarkObjects: 2.096900 ms  DeleteObjects: 0.129300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000734 seconds.
+Registered in 0.000955 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1726,217 +491,989 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
+- Completed reload, in  1.058 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1815.
-Total: 2.774100 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.052000 ms MarkObjects: 2.403300 ms  DeleteObjects: 0.099700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000968 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
-Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1818.
-Total: 2.559700 ms (FindLiveObjects: 0.209900 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.149700 ms  DeleteObjects: 0.151300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000741 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1821.
-Total: 2.536100 ms (FindLiveObjects: 0.360400 ms CreateObjectMapping: 0.140600 ms MarkObjects: 1.889200 ms  DeleteObjects: 0.144900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000770 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 137.4 MB.
-System memory in use after: 137.5 MB.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.0 MB.
+System memory in use after: 138.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1824.
-Total: 2.524800 ms (FindLiveObjects: 0.251400 ms CreateObjectMapping: 0.058600 ms MarkObjects: 2.121700 ms  DeleteObjects: 0.091500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1770.775511 seconds.
-  path: Assets/Robot Kyle
-  artifactKey: Guid(f1518f6f4a2edc04697cbca00eccc4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle using Guid(f1518f6f4a2edc04697cbca00eccc4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de399293ad1a9672ddb8703adfc5842') in 0.012367 seconds
-  Import took 0.016015 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1720.
+Total: 3.077400 ms (FindLiveObjects: 0.244200 ms CreateObjectMapping: 0.040700 ms MarkObjects: 2.610600 ms  DeleteObjects: 0.179600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.477681 seconds.
-  path: Assets/Robot Kyle/Model
-  artifactKey: Guid(b3510534264705e4193c08dbf9de755b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model using Guid(b3510534264705e4193c08dbf9de755b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f032f0156df1e3176c9230d8d6cfe4') in 0.011705 seconds
-  Import took 0.014404 seconds .
+  Time since last request: 4798.576458 seconds.
+  path: Assets/Concrete textures pack/pattern 01/Concrete pattern 01.mat
+  artifactKey: Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/Concrete pattern 01.mat using Guid(9447935ca27fed54c9c28112b77d5908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0345111320b0bb8733fef6813d01713') in 0.128839 seconds
+  Import took 0.133725 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.051977 seconds.
-  path: Assets/Robot Kyle/Model/Robot Kyle.fbx
-  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Model/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68df28ba933ea03f100bb2ce45fa4212') in 0.371447 seconds
-  Import took 0.374317 seconds .
+  Time since last request: 0.000377 seconds.
+  path: Assets/Concrete textures pack/pattern 01/diffuse.tga
+  artifactKey: Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/diffuse.tga using Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fceb1fcf177e382078b7dd815c30ac') in 0.033824 seconds
+  Import took 0.037177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 61.109063 seconds.
-  path: Assets/Robot Kyle/Materials
-  artifactKey: Guid(99b6a51e8fed6844980a811088280d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Materials using Guid(99b6a51e8fed6844980a811088280d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f86ee3de29d8b7220bc54036b2ba759') in 2.125312 seconds
-  Import took 2.127590 seconds .
+  Time since last request: 0.000339 seconds.
+  path: Assets/Concrete textures pack/pattern 01/preview.jpg
+  artifactKey: Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/preview.jpg using Guid(b66c0912b671be645bfcf63a83e63369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa600d1e70e459a138f5e22b6f9f448a') in 0.085322 seconds
+  Import took 0.088115 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/Robot Kyle/Textures/Robot_Color.tga
-  artifactKey: Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Textures/Robot_Color.tga using Guid(0a0e8af2869fa45f78e25460db578482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e086429c7a9759b2e880d7203ca169') in 0.024769 seconds
-  Import took 0.028322 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Concrete textures pack/pattern 01/diffuse.tga
+  artifactKey: Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/diffuse.tga using Guid(52fb9790650d0324c8b24cae56159844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fceb1fcf177e382078b7dd815c30ac') in 0.008297 seconds
+  Import took 0.010850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Concrete textures pack/pattern 01/normal.tga
+  artifactKey: Guid(4c89e0f06b2b0c34ebb9b930314cf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01/normal.tga using Guid(4c89e0f06b2b0c34ebb9b930314cf921) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a5fe2649023c39a7735a011fd8bf9c') in 0.021667 seconds
+  Import took 0.026495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.816815 seconds.
+  path: Assets/Concrete textures pack
+  artifactKey: Guid(a44adde06d8516341bd6c05fa0672133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack using Guid(a44adde06d8516341bd6c05fa0672133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37894541fd3f5ba160f23ac6d2084bd0') in 0.010854 seconds
+  Import took 0.013822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.293424 seconds.
+  path: Assets/Concrete textures pack/pattern 02
+  artifactKey: Guid(62cac853eebd1504b89d7618eb4e0671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02 using Guid(62cac853eebd1504b89d7618eb4e0671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24685802abf6a77fcfc753bf897d0638') in 0.009562 seconds
+  Import took 0.012031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060792 seconds.
+  path: Assets/Concrete textures pack/pattern 02/Concrete pattern 02.mat
+  artifactKey: Guid(74c690b29deaf184eb0f56c386f5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/Concrete pattern 02.mat using Guid(74c690b29deaf184eb0f56c386f5ef8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78970e3133dad08cd65b9861ab6c7493') in 0.022324 seconds
+  Import took 0.025384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Concrete textures pack/pattern 02/diffuse.tga
+  artifactKey: Guid(ac337a3170ca1644fbe573e8389e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/diffuse.tga using Guid(ac337a3170ca1644fbe573e8389e6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7da174cc073711013019d2430caa59') in 0.019880 seconds
+  Import took 0.023409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Concrete textures pack/pattern 02/preview.jpg
+  artifactKey: Guid(07a98f2a2d328484eb1ec0d5dfe110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/preview.jpg using Guid(07a98f2a2d328484eb1ec0d5dfe110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86b1619ebb43d2b4f4a986c319f5855') in 0.026409 seconds
+  Import took 0.030057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/Concrete textures pack/pattern 02/normal.tga
+  artifactKey: Guid(36c90be17cf50af41a9f4c35a0abc566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 02/normal.tga using Guid(36c90be17cf50af41a9f4c35a0abc566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28176e5f406ac21acaa1767295361f9') in 0.026635 seconds
+  Import took 0.030409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.088842 seconds.
+  path: Assets/Concrete textures pack/pattern 03
+  artifactKey: Guid(8eec5edf22e1d6d4e8da149cb21d4b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03 using Guid(8eec5edf22e1d6d4e8da149cb21d4b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0141ef1ab5bc85a8ff1902b85faa732') in 0.008286 seconds
+  Import took 0.011389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.501239 seconds.
+  path: Assets/Concrete textures pack/pattern 03/Concrete pattern 03.mat
+  artifactKey: Guid(52c9083b299dfa3479caa56bb9f0a98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/Concrete pattern 03.mat using Guid(52c9083b299dfa3479caa56bb9f0a98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608f0a9319731727089f219075fc7a69') in 0.020529 seconds
+  Import took 0.023206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Concrete textures pack/pattern 03/preview.jpg
+  artifactKey: Guid(f4ecf1c1e4543d14ea7d040b6ad512de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/preview.jpg using Guid(f4ecf1c1e4543d14ea7d040b6ad512de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e952e083e2cbe0d495f820ca335efcd') in 0.014830 seconds
+  Import took 0.018236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Concrete textures pack/pattern 03/normal.tga
+  artifactKey: Guid(a4b3c4b19bb248240b69534d0d290fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/normal.tga using Guid(a4b3c4b19bb248240b69534d0d290fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77117736d7f0a48b58dc7a4a47f2a0e0') in 0.021629 seconds
+  Import took 0.024425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Concrete textures pack/pattern 03/diffuse.tga
+  artifactKey: Guid(a0abf4a2000b8db4b839f1a048fafbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 03/diffuse.tga using Guid(a0abf4a2000b8db4b839f1a048fafbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828fc126331d464c5802ef14f5e1960b') in 0.022081 seconds
+  Import took 0.026748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.525173 seconds.
+  path: Assets/Concrete textures pack/pattern 04
+  artifactKey: Guid(e2d29d255b63b174c9e5490df33385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04 using Guid(e2d29d255b63b174c9e5490df33385e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9a6f46cc149674d068df421e1cc750') in 0.009341 seconds
+  Import took 0.012100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042506 seconds.
+  path: Assets/Concrete textures pack/pattern 04/Concrete pattern 04.mat
+  artifactKey: Guid(46be5f15e363aac4381cc9eb6efc673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/Concrete pattern 04.mat using Guid(46be5f15e363aac4381cc9eb6efc673f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b4c89e8fb1abd946cfa5168663e042') in 0.023769 seconds
+  Import took 0.026743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Concrete textures pack/pattern 04/preview.jpg
+  artifactKey: Guid(ea6fbebb7b7c6204d9a867e55c8bbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/preview.jpg using Guid(ea6fbebb7b7c6204d9a867e55c8bbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c6b6270e1acabcb90ce150c31a67d4') in 0.013342 seconds
+  Import took 0.017018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Concrete textures pack/pattern 04/diffuse.tga
+  artifactKey: Guid(f177303393a7c84488d40d0843aab036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/diffuse.tga using Guid(f177303393a7c84488d40d0843aab036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142ba50ffe91dc708c642f70234e85a4') in 0.016565 seconds
+  Import took 0.019669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Concrete textures pack/pattern 04/normal.tga
+  artifactKey: Guid(10aaffe9500c81040b80c85d480a877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 04/normal.tga using Guid(10aaffe9500c81040b80c85d480a877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb910bac9b0108d786b2e14ba47d1df') in 0.016638 seconds
+  Import took 0.019563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.593516 seconds.
+  path: Assets/Concrete textures pack/pattern 05
+  artifactKey: Guid(e7204ffa80ed02643bd97ebbc710649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05 using Guid(e7204ffa80ed02643bd97ebbc710649e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a041dba18ba7ac2ce4d10df3b26db45') in 0.008911 seconds
+  Import took 0.011491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037046 seconds.
+  path: Assets/Concrete textures pack/pattern 05/Concrete pattern 05.mat
+  artifactKey: Guid(04652004be933ba41b4ac32ddd7f5eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/Concrete pattern 05.mat using Guid(04652004be933ba41b4ac32ddd7f5eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfee43faecef4beacd85176278336f6') in 0.020179 seconds
+  Import took 0.023466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Concrete textures pack/pattern 05/preview.jpg
+  artifactKey: Guid(70f4b090dd9924e4d96be2d653c9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/preview.jpg using Guid(70f4b090dd9924e4d96be2d653c9f7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d062b835438613af6b114e4ee65cb32') in 0.014272 seconds
+  Import took 0.016894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Concrete textures pack/pattern 05/diffuse.tga
+  artifactKey: Guid(f3c3b5b741e8fda40b5541562f461415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/diffuse.tga using Guid(f3c3b5b741e8fda40b5541562f461415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a017aaa301dd7d486081485c158a72d') in 0.014460 seconds
+  Import took 0.018039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Concrete textures pack/pattern 05/normal.tga
+  artifactKey: Guid(2fee60a97b8865c4ca9b84b80f6b12d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 05/normal.tga using Guid(2fee60a97b8865c4ca9b84b80f6b12d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3438decc26096522911563390d06bfd') in 0.014063 seconds
+  Import took 0.017701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.202577 seconds.
+  path: Assets/Concrete textures pack/pattern 06
+  artifactKey: Guid(9acb88cb0f4a9ab4abd5b98b2784cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06 using Guid(9acb88cb0f4a9ab4abd5b98b2784cb3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbb9a64c909c62f27ad1d90065a0a63') in 0.008228 seconds
+  Import took 0.011603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053350 seconds.
+  path: Assets/Concrete textures pack/pattern 06/Concrete pattern 06.mat
+  artifactKey: Guid(8e53f458c50238748a0e25fbe049b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06/Concrete pattern 06.mat using Guid(8e53f458c50238748a0e25fbe049b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16778edb887de2c9202bbbc2da78d42') in 0.019821 seconds
+  Import took 0.022765 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000371 seconds.
-  path: Assets/Robot Kyle/Textures/Robot_Normal.tga
-  artifactKey: Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Textures/Robot_Normal.tga using Guid(94c473c9137744d7eabd829f1150da8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85febc1c26aa5c8f7226431d33bb3f04') in 0.022822 seconds
-  Import took 0.025913 seconds .
+  path: Assets/Concrete textures pack/pattern 06/diffuse.tga
+  artifactKey: Guid(797b455d235e0f9429d6eedc7e2e6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06/diffuse.tga using Guid(797b455d235e0f9429d6eedc7e2e6e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af00e5786639aa600a679d5d0b18a227') in 0.013612 seconds
+  Import took 0.017140 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000477 seconds.
-  path: Assets/Robot Kyle/Materials/Robot_Color.mat
-  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a424a90fc3ed967a0e32e7c279384b8') in 0.050454 seconds
-  Import took 0.054051 seconds .
+  Time since last request: 0.000367 seconds.
+  path: Assets/Concrete textures pack/pattern 06/normal.tga
+  artifactKey: Guid(bb45c9fdde18c2842b841cf4eb598957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06/normal.tga using Guid(bb45c9fdde18c2842b841cf4eb598957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d142c38ec9fe9062fe6b305762b5bf') in 0.017799 seconds
+  Import took 0.020712 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/Robot Kyle/Textures
-  artifactKey: Guid(899a21e4c2ba13044b55e236c5741bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Robot Kyle/Textures using Guid(899a21e4c2ba13044b55e236c5741bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2968650ebb6edb332e4b5a550064429') in 0.024920 seconds
+  Time since last request: 0.000357 seconds.
+  path: Assets/Concrete textures pack/pattern 06/preview.jpg
+  artifactKey: Guid(2c80108b25b86424abf27196b6bc3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 06/preview.jpg using Guid(2c80108b25b86424abf27196b6bc3c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a81c85c4292c97f546411ac71a283427') in 0.013522 seconds
+  Import took 0.017979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.377432 seconds.
+  path: Assets/Concrete textures pack/pattern 07
+  artifactKey: Guid(ba3fa9b7c89976c4e8023b06ba325bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07 using Guid(ba3fa9b7c89976c4e8023b06ba325bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1aa04b7db8b76341daf995516d94424') in 0.008411 seconds
+  Import took 0.010754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056016 seconds.
+  path: Assets/Concrete textures pack/pattern 07/Concrete pattern 07.mat
+  artifactKey: Guid(b1d36282b2c17c84fb2f618cba0439a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/Concrete pattern 07.mat using Guid(b1d36282b2c17c84fb2f618cba0439a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b669ee6a9f99b5a5e28d7abdeed5e838') in 0.017156 seconds
+  Import took 0.020258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Concrete textures pack/pattern 07/normal.tga
+  artifactKey: Guid(7a6f2bd98e2c2a347a46d434d356e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/normal.tga using Guid(7a6f2bd98e2c2a347a46d434d356e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63841f5ae6878b018cc57a41a4566f32') in 0.012847 seconds
+  Import took 0.016106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Concrete textures pack/pattern 07/diffuse.tga
+  artifactKey: Guid(e312182b2d9d04c47a2ffb6c823b3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/diffuse.tga using Guid(e312182b2d9d04c47a2ffb6c823b3a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca2a3f4e9c90358866dc76ce4c819ec') in 0.017018 seconds
+  Import took 0.020459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Concrete textures pack/pattern 07/preview.jpg
+  artifactKey: Guid(a48aeff9c0eb7a1479a0451a3d6e4ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 07/preview.jpg using Guid(a48aeff9c0eb7a1479a0451a3d6e4ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87d496cdc473568f3bbc74b7f9fd6ce1') in 0.016409 seconds
+  Import took 0.019034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.374581 seconds.
+  path: Assets/Concrete textures pack/pattern 08
+  artifactKey: Guid(4dd0dcb7ce8c3884aade152a370fd565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 08 using Guid(4dd0dcb7ce8c3884aade152a370fd565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706275634aed92870ea94bfdca7771ea') in 0.009919 seconds
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063611 seconds.
+  path: Assets/Concrete textures pack/pattern 08/Concrete pattern 08.mat
+  artifactKey: Guid(ebf8b4d16b7f8924fb9116d2e3207836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 08/Concrete pattern 08.mat using Guid(ebf8b4d16b7f8924fb9116d2e3207836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324875bfb58c567cc44d9d831197c2ca') in 0.019370 seconds
+  Import took 0.022045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Concrete textures pack/pattern 08/preview.jpg
+  artifactKey: Guid(43b803fa02a13fe4baf62f168d83c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 08/preview.jpg using Guid(43b803fa02a13fe4baf62f168d83c8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daff7cb16080fdcd3a14666ae8581f7a') in 0.012737 seconds
+  Import took 0.017446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Concrete textures pack/pattern 08/normal.tga
+  artifactKey: Guid(b9198e7b8cb3f5342a8c154efbaff1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 08/normal.tga using Guid(b9198e7b8cb3f5342a8c154efbaff1d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888cc5e4f9e833d8f2d70ca2de40f89a') in 0.016853 seconds
+  Import took 0.020591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Concrete textures pack/pattern 08/diffuse.tga
+  artifactKey: Guid(14efa88d20a9c834fa648fbcf82c2f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 08/diffuse.tga using Guid(14efa88d20a9c834fa648fbcf82c2f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b425df4ff17be1088d1cda79ba7b5c33') in 0.017945 seconds
+  Import took 0.020923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.717568 seconds.
+  path: Assets/Concrete textures pack/pattern 09
+  artifactKey: Guid(c79ff37ed4b4a774c996c9b120e53e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09 using Guid(c79ff37ed4b4a774c996c9b120e53e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb6481361c32f9bebbdaf6885133453') in 0.009410 seconds
+  Import took 0.012195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054827 seconds.
+  path: Assets/Concrete textures pack/pattern 09/Concrete pattern 09.mat
+  artifactKey: Guid(90caba3031f3bb6489b26535a49cd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09/Concrete pattern 09.mat using Guid(90caba3031f3bb6489b26535a49cd81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f92499c1fd3301cb085c1c3b8d18623') in 0.018393 seconds
+  Import took 0.021526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Concrete textures pack/pattern 09/normal.tga
+  artifactKey: Guid(351659eb5c7bd504f8cc03dc40527e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09/normal.tga using Guid(351659eb5c7bd504f8cc03dc40527e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681a0247f6e9481e6726377871fbbac0') in 0.017480 seconds
+  Import took 0.021125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Concrete textures pack/pattern 09/diffuse.tga
+  artifactKey: Guid(e7e2260ae09042e4f85772607531094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09/diffuse.tga using Guid(e7e2260ae09042e4f85772607531094f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e75730839bf2ebae3c25b2cbfab62f') in 0.014914 seconds
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Concrete textures pack/pattern 09/preview.jpg
+  artifactKey: Guid(48eac1a26c880a64283c0ad77895d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 09/preview.jpg using Guid(48eac1a26c880a64283c0ad77895d4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1a55e3cf416775405f381f34c96967') in 0.012531 seconds
+  Import took 0.015876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.694951 seconds.
+  path: Assets/Concrete textures pack/pattern 10
+  artifactKey: Guid(95c97e849dc0f6e479af328d08c8e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10 using Guid(95c97e849dc0f6e479af328d08c8e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6be9c84c82af3aa5769be78de1c57a0') in 0.008882 seconds
+  Import took 0.011622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037356 seconds.
+  path: Assets/Concrete textures pack/pattern 10/Concrete pattern 10.mat
+  artifactKey: Guid(3ff803e95ede8de42a2adbcd1dd530d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10/Concrete pattern 10.mat using Guid(3ff803e95ede8de42a2adbcd1dd530d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1f0879368879f675e113f68f282add') in 0.019335 seconds
+  Import took 0.022258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Concrete textures pack/pattern 10/preview.jpg
+  artifactKey: Guid(3cca3be7de00d904ba412eb14b6c1990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10/preview.jpg using Guid(3cca3be7de00d904ba412eb14b6c1990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591d9e58fa255890c250ffbdcacd6a71') in 0.013249 seconds
+  Import took 0.016135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Concrete textures pack/pattern 10/normal.tga
+  artifactKey: Guid(bb1d9b4bcac392e449005887c6da1d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10/normal.tga using Guid(bb1d9b4bcac392e449005887c6da1d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91263b79748a7a9dfac3c063ce11af40') in 0.018846 seconds
+  Import took 0.022053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Concrete textures pack/pattern 10/diffuse.tga
+  artifactKey: Guid(63572e5568cdd1f4382233109e0172f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 10/diffuse.tga using Guid(63572e5568cdd1f4382233109e0172f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2358ac5dd4e75d56b59d212ed6956ab3') in 0.017361 seconds
+  Import took 0.119161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.094135 seconds.
+  path: Assets/Concrete textures pack/pattern 11
+  artifactKey: Guid(8109d0ef241286344861031ed994812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 11 using Guid(8109d0ef241286344861031ed994812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac39054f5b4b41c65d9934d3c5edfca') in 0.007185 seconds
+  Import took 0.009806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.223895 seconds.
+  path: Assets/Concrete textures pack/pattern 11/Concrete pattern 11.mat
+  artifactKey: Guid(39d9ac5066e1af74cadba0ad038e742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 11/Concrete pattern 11.mat using Guid(39d9ac5066e1af74cadba0ad038e742b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9c43f43d9664d7f1110e33f3abaa62') in 0.015770 seconds
+  Import took 0.018766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Concrete textures pack/pattern 11/normal.tga
+  artifactKey: Guid(fbcf021c5f50bd24cbe41780e59d027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 11/normal.tga using Guid(fbcf021c5f50bd24cbe41780e59d027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f8b9bd680afd5be4a315b96c60580c') in 0.016404 seconds
+  Import took 0.019590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Concrete textures pack/pattern 11/diffuse.tga
+  artifactKey: Guid(4fd7d8b01792b324ba55aba32b8e7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 11/diffuse.tga using Guid(4fd7d8b01792b324ba55aba32b8e7714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9116b5d9ac8f5b4cb535f914165bc4d6') in 0.015493 seconds
+  Import took 0.018321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Concrete textures pack/pattern 11/preview.jpg
+  artifactKey: Guid(141a53777240c2644b20b45c14cdb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 11/preview.jpg using Guid(141a53777240c2644b20b45c14cdb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5fdba2d93c1d33c4332fdde68dcf98') in 0.017085 seconds
+  Import took 0.019952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.404846 seconds.
+  path: Assets/Concrete textures pack/pattern 12
+  artifactKey: Guid(7d05b9a6963cd2d4bb15e6afbd1a24cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 12 using Guid(7d05b9a6963cd2d4bb15e6afbd1a24cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08a2812cae641b71c0396b98263a3f') in 0.007530 seconds
+  Import took 0.010018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053825 seconds.
+  path: Assets/Concrete textures pack/pattern 12/Concrete pattern 12.mat
+  artifactKey: Guid(90958dd685f590642806ebb68b473bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 12/Concrete pattern 12.mat using Guid(90958dd685f590642806ebb68b473bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032d53c8d6aec343df1313ae6e7042b3') in 0.017983 seconds
+  Import took 0.022532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Concrete textures pack/pattern 12/diffuse.tga
+  artifactKey: Guid(0f7d501e1bd83f342a13e87ad73a2021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 12/diffuse.tga using Guid(0f7d501e1bd83f342a13e87ad73a2021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4139f7b7a7592ec81f7aa47ee5c62f9e') in 0.013508 seconds
+  Import took 0.015969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Concrete textures pack/pattern 12/normal.tga
+  artifactKey: Guid(0832867a17f1d6f48baf3814242b85fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 12/normal.tga using Guid(0832867a17f1d6f48baf3814242b85fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f62f4d67e7d495bafd0038afdb6fbf') in 0.020273 seconds
+  Import took 0.023497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Concrete textures pack/pattern 12/preview.jpg
+  artifactKey: Guid(cdba7a4efd4471c4ca63992b88371151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 12/preview.jpg using Guid(cdba7a4efd4471c4ca63992b88371151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a5a649af08de9257961466afdce45d') in 0.023482 seconds
+  Import took 0.026590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.417774 seconds.
+  path: Assets/Concrete textures pack/pattern 13
+  artifactKey: Guid(32000b33d96d40e48973dd7ba69a474b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 13 using Guid(32000b33d96d40e48973dd7ba69a474b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1b48582c5581c0772a1981f7e9cade') in 0.008008 seconds
+  Import took 0.010441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229682 seconds.
+  path: Assets/Concrete textures pack/pattern 13/Concrete pattern 13.mat
+  artifactKey: Guid(0fc0bf58c56418e44b94d145ca6f5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 13/Concrete pattern 13.mat using Guid(0fc0bf58c56418e44b94d145ca6f5db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84339cc50a5a3e5051bb06d6824d63d3') in 0.021696 seconds
+  Import took 0.024316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Concrete textures pack/pattern 13/normal.tga
+  artifactKey: Guid(4f0c983aed2f7d6479a2631a806a776a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 13/normal.tga using Guid(4f0c983aed2f7d6479a2631a806a776a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01954135ddfc29d4edf86d2cf1e02372') in 0.019966 seconds
+  Import took 0.022853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Concrete textures pack/pattern 13/diffuse.tga
+  artifactKey: Guid(137a6a64c7d915a4a979e2022730a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 13/diffuse.tga using Guid(137a6a64c7d915a4a979e2022730a4b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96bb94d32a7bd5a798cf85ef0f132d8') in 0.026385 seconds
+  Import took 0.029651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Concrete textures pack/pattern 13/preview.jpg
+  artifactKey: Guid(f0e62d03632cea245ae3eb63ebaccaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 13/preview.jpg using Guid(f0e62d03632cea245ae3eb63ebaccaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba40dd3448c32f6cf84a69b3a731e328') in 0.017689 seconds
+  Import took 0.020587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.686888 seconds.
+  path: Assets/Concrete textures pack/pattern 14
+  artifactKey: Guid(9a01f4dbeb196c249af796a6a370efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 14 using Guid(9a01f4dbeb196c249af796a6a370efca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f60e55c7ae6da182a7faefa548836c') in 0.008555 seconds
+  Import took 0.011087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050101 seconds.
+  path: Assets/Concrete textures pack/pattern 14/Concrete pattern 14.mat
+  artifactKey: Guid(acbeb59509e47e942937ab47a0abc310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 14/Concrete pattern 14.mat using Guid(acbeb59509e47e942937ab47a0abc310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a3f7539b2e9dfcfdf6bc5e0d112d66') in 0.019732 seconds
+  Import took 0.022601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Concrete textures pack/pattern 14/preview.jpg
+  artifactKey: Guid(80f0333e3899f3d4d8077df45bb0e76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 14/preview.jpg using Guid(80f0333e3899f3d4d8077df45bb0e76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b8947327c3805fdc74d7103d11ae58') in 0.014609 seconds
+  Import took 0.016883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Concrete textures pack/pattern 14/normal.tga
+  artifactKey: Guid(5a89234c1c1cee74ea98d53496c77c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 14/normal.tga using Guid(5a89234c1c1cee74ea98d53496c77c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8493b6536d8cd44cae197b8f5a654ae8') in 0.016140 seconds
+  Import took 0.018595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Concrete textures pack/pattern 14/diffuse.tga
+  artifactKey: Guid(337ac93e12665eb4ba14cd1b0ca57bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 14/diffuse.tga using Guid(337ac93e12665eb4ba14cd1b0ca57bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90562dba62dbc154d826d9c05a9d02f9') in 0.017471 seconds
+  Import took 0.021021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.904034 seconds.
+  path: Assets/Concrete textures pack/pattern 15
+  artifactKey: Guid(2586ed1a985584749b1b1d43cd61db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 15 using Guid(2586ed1a985584749b1b1d43cd61db5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dd9ae71be4f5218fd5328aa8d0be6b') in 0.008997 seconds
+  Import took 0.011556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050591 seconds.
+  path: Assets/Concrete textures pack/pattern 15/Concrete pattern 15.mat
+  artifactKey: Guid(6c096acbd65465b438d9b0a3d141cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 15/Concrete pattern 15.mat using Guid(6c096acbd65465b438d9b0a3d141cff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a6d2d1bfebc647173365fd88226e5f') in 0.021935 seconds
+  Import took 0.025723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Concrete textures pack/pattern 15/diffuse.tga
+  artifactKey: Guid(5cbc104c942183b41a667dda27ec79a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 15/diffuse.tga using Guid(5cbc104c942183b41a667dda27ec79a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f021bfd6f21ac4133bdb328b17ed3b3') in 0.016867 seconds
+  Import took 0.021307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005951 seconds.
+  path: Assets/Concrete textures pack/pattern 15/preview.jpg
+  artifactKey: Guid(1892b5ecef2d16044979248b98bd5233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 15/preview.jpg using Guid(1892b5ecef2d16044979248b98bd5233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee80d440542c7289b55304868ae1fe77') in 0.016973 seconds
+  Import took 0.020396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Concrete textures pack/pattern 15/normal.tga
+  artifactKey: Guid(40950fee77595f845a5d4a8f0412559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 15/normal.tga using Guid(40950fee77595f845a5d4a8f0412559a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c409fe389515e14c3824914181ca39') in 0.019844 seconds
+  Import took 0.022834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.007734 seconds.
+  path: Assets/Concrete textures pack/pattern 16
+  artifactKey: Guid(da5042c9260193142870652f05b7eec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 16 using Guid(da5042c9260193142870652f05b7eec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5c3b1d9989e88e3134be542a60afe6') in 0.010996 seconds
+  Import took 0.013699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325130 seconds.
+  path: Assets/Concrete textures pack/pattern 16/Concrete pattern 16.mat
+  artifactKey: Guid(edb56784830ff6e48bc903e1da5bc5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 16/Concrete pattern 16.mat using Guid(edb56784830ff6e48bc903e1da5bc5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40857aa6ecbd7c576b707061f832a53d') in 0.024776 seconds
   Import took 0.027295 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000818 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
-Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.7 MB.
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Concrete textures pack/pattern 16/diffuse.tga
+  artifactKey: Guid(fd16008f462a0b746974440d3b751b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 16/diffuse.tga using Guid(fd16008f462a0b746974440d3b751b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae02ac0f09ff4aa2376d415f05b9f98') in 0.016320 seconds
+  Import took 0.019212 seconds .
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1872.
-Total: 1.995000 ms (FindLiveObjects: 0.188500 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.630400 ms  DeleteObjects: 0.128400 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Concrete textures pack/pattern 16/preview.jpg
+  artifactKey: Guid(e7a8e5655be92094eb1308612a817814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 16/preview.jpg using Guid(e7a8e5655be92094eb1308612a817814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa969326e8b5e3c04b07f060192da54') in 0.014019 seconds
+  Import took 0.017564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Concrete textures pack/pattern 16/normal.tga
+  artifactKey: Guid(7de3f241545f4454b9eeddd0482d3690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 16/normal.tga using Guid(7de3f241545f4454b9eeddd0482d3690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18a79e3a7d4a5a411ab1c9cb59ebc281') in 0.020118 seconds
+  Import took 0.023105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.432401 seconds.
+  path: Assets/Concrete textures pack/pattern 17
+  artifactKey: Guid(e7a63ed528f5ad645b5e9ccfd506a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 17 using Guid(e7a63ed528f5ad645b5e9ccfd506a84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5acfab4b15acea4a62ff81ef5c051d') in 0.007937 seconds
+  Import took 0.010685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039752 seconds.
+  path: Assets/Concrete textures pack/pattern 17/Concrete pattern 17.mat
+  artifactKey: Guid(573165ec89c0f4a488f962940dc8d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 17/Concrete pattern 17.mat using Guid(573165ec89c0f4a488f962940dc8d6d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4a0edf2a747d554cbf6228f8298f81') in 0.018288 seconds
+  Import took 0.021444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Concrete textures pack/pattern 17/normal.tga
+  artifactKey: Guid(dac2a28fc94762d4ca44b2bc4684a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 17/normal.tga using Guid(dac2a28fc94762d4ca44b2bc4684a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07774c3b81b1fd7b85a618cd8b540103') in 0.020189 seconds
+  Import took 0.023032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Concrete textures pack/pattern 17/diffuse.tga
+  artifactKey: Guid(43e7843d5e3a62f41a2ed8bd385747d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 17/diffuse.tga using Guid(43e7843d5e3a62f41a2ed8bd385747d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1140fef9cd7bbd1ce20cb6e113cf20') in 0.017320 seconds
+  Import took 0.021511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Concrete textures pack/pattern 17/preview.jpg
+  artifactKey: Guid(aa7b5d03c68f6bd42a4fe089a643ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 17/preview.jpg using Guid(aa7b5d03c68f6bd42a4fe089a643ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5323d856bd87d8dfd5425c13552911d0') in 0.012765 seconds
+  Import took 0.015426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.045178 seconds.
+  path: Assets/Concrete textures pack/pattern 18
+  artifactKey: Guid(46c71cf692b94d049aa3f19397760261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 18 using Guid(46c71cf692b94d049aa3f19397760261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd400b23bc9962ff34708566029ef1827') in 0.006628 seconds
+  Import took 0.008957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106917 seconds.
+  path: Assets/Concrete textures pack/pattern 18/Concrete pattern 18.mat
+  artifactKey: Guid(35b3905e878c7c14a804d8e50b2f37d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 18/Concrete pattern 18.mat using Guid(35b3905e878c7c14a804d8e50b2f37d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d02998a94cfcb621c998833b17b63') in 0.017267 seconds
+  Import took 0.019680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Concrete textures pack/pattern 18/preview.jpg
+  artifactKey: Guid(305be0ee9678e6b4d96a82028b7c443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 18/preview.jpg using Guid(305be0ee9678e6b4d96a82028b7c443c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5dc0df23d3fceea898c08d132eed94') in 0.013656 seconds
+  Import took 0.016064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Concrete textures pack/pattern 18/normal.tga
+  artifactKey: Guid(f6a0536a40541a94e806c5d785eae6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 18/normal.tga using Guid(f6a0536a40541a94e806c5d785eae6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6d3803cba7a31c1fdd24113439d84e') in 0.016626 seconds
+  Import took 0.020291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Concrete textures pack/pattern 18/diffuse.tga
+  artifactKey: Guid(1581d87fafc571743927113bbb35d150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 18/diffuse.tga using Guid(1581d87fafc571743927113bbb35d150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b20c3e8d72500cba07cc131a5f916e5') in 0.017731 seconds
+  Import took 0.020771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.128225 seconds.
+  path: Assets/Concrete textures pack/pattern 19
+  artifactKey: Guid(09d0ab6598df9bd4d836b161390351a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19 using Guid(09d0ab6598df9bd4d836b161390351a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f71c979b6bee15dea5cc07e3003044c') in 0.010058 seconds
+  Import took 0.013011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046986 seconds.
+  path: Assets/Concrete textures pack/pattern 19/Concrete pattern 19.mat
+  artifactKey: Guid(03df648f2a2e48843962ec5471b9e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19/Concrete pattern 19.mat using Guid(03df648f2a2e48843962ec5471b9e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d0696107ba05b1d83886d79df79209') in 0.020237 seconds
+  Import took 0.023091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Concrete textures pack/pattern 19/normal.tga
+  artifactKey: Guid(0de756e42b8c5514a998ecc02de04449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19/normal.tga using Guid(0de756e42b8c5514a998ecc02de04449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95568bd75b407feb69ee65923b1dd616') in 0.018445 seconds
+  Import took 0.021418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000813 seconds.
+  path: Assets/Concrete textures pack/pattern 19/preview.jpg
+  artifactKey: Guid(47af16f51bd2a4b499774895c9be3dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19/preview.jpg using Guid(47af16f51bd2a4b499774895c9be3dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dd562d0ff781aa2a3854ee99616428') in 0.014453 seconds
+  Import took 0.017455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/Concrete textures pack/pattern 19/diffuse.tga
+  artifactKey: Guid(17d86cba6d82c28418f9788157e1358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 19/diffuse.tga using Guid(17d86cba6d82c28418f9788157e1358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1549287e9cef580c1bf9598d2f743a9') in 0.018383 seconds
+  Import took 0.022259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.460951 seconds.
+  path: Assets/Concrete textures pack/pattern 20
+  artifactKey: Guid(8defbdc1efa8c8c4c92ea2ef5ccbb6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 20 using Guid(8defbdc1efa8c8c4c92ea2ef5ccbb6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bffd90132bb6a5d039a011a01477d64') in 0.008930 seconds
+  Import took 0.011408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.248351 seconds.
+  path: Assets/Concrete textures pack/pattern 20/Concrete pattern 20.mat
+  artifactKey: Guid(d9118644cf18d114abae307878884709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 20/Concrete pattern 20.mat using Guid(d9118644cf18d114abae307878884709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2648ee69ad4edb3ae58e07d39c578d0') in 0.017756 seconds
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Concrete textures pack/pattern 20/diffuse.tga
+  artifactKey: Guid(b849444d32b0d014f89eea7ab00e6c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 20/diffuse.tga using Guid(b849444d32b0d014f89eea7ab00e6c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9199ce7b0118e24050a8d1b17c6eb75') in 0.012967 seconds
+  Import took 0.015660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Concrete textures pack/pattern 20/normal.tga
+  artifactKey: Guid(7a8be65734a93fc49aca732fcf50e57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 20/normal.tga using Guid(7a8be65734a93fc49aca732fcf50e57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7450b0419adac370cd65ee5361cf7a') in 0.018403 seconds
+  Import took 0.021848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Concrete textures pack/pattern 20/preview.jpg
+  artifactKey: Guid(24ac637c34a5abb4798a57b62a329104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 20/preview.jpg using Guid(24ac637c34a5abb4798a57b62a329104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935de5b2f2959d43241c69a2a551fc8c') in 0.014497 seconds
+  Import took 0.017102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.234855 seconds.
+  path: Assets/Concrete textures pack/pattern 01
+  artifactKey: Guid(7660fe2a20282054ebfb8aae0740143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Concrete textures pack/pattern 01 using Guid(7660fe2a20282054ebfb8aae0740143e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196713ddfa1e391b742e5005dccda900') in 0.007890 seconds
+  Import took 0.010377 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000706 seconds.
+Registered in 0.001357 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.997 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.1 MB.
+System memory in use after: 138.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1728.
+Total: 1.986400 ms (FindLiveObjects: 0.235700 ms CreateObjectMapping: 0.056600 ms MarkObjects: 1.552400 ms  DeleteObjects: 0.140200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1145 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.7 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.999 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.2 MB.
+System memory in use after: 138.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1875.
-Total: 2.311700 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.051900 ms MarkObjects: 1.929900 ms  DeleteObjects: 0.124400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1732.
+Total: 3.133800 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.647700 ms  DeleteObjects: 0.161900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 600.285129 seconds.
+  path: Assets/Scripts/MovePanel.cs
+  artifactKey: Guid(21f15e79e2793f64f98bdfdf85341bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MovePanel.cs using Guid(21f15e79e2793f64f98bdfdf85341bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe53c4aef0213983476970373b932a4b') in 0.014016 seconds
+  Import took 0.016398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.436375 seconds.
+  path: Assets/doortexture.jpg
+  artifactKey: Guid(e6a0cfd919c89b744aa4be63606b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/doortexture.jpg using Guid(e6a0cfd919c89b744aa4be63606b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207ecfafb6b67d5adb6af5464853058d') in 0.051623 seconds
+  Import took 0.054818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.360758 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(b685520a30642174aa735ff0387b0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(b685520a30642174aa735ff0387b0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45e62498bfafd56ae8947faac995608') in 0.053294 seconds
+  Import took 0.056252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.140737 seconds.
+  path: Assets/doortexture.jpg
+  artifactKey: Guid(e6a0cfd919c89b744aa4be63606b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/doortexture.jpg using Guid(e6a0cfd919c89b744aa4be63606b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a276d103255070d705304866bdc6bafe') in 0.013197 seconds
+  Import took 0.016465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006591 seconds.
+  path: Assets/doortexture.jpg
+  artifactKey: Guid(e6a0cfd919c89b744aa4be63606b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/doortexture.jpg using Guid(e6a0cfd919c89b744aa4be63606b6414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a276d103255070d705304866bdc6bafe') in 0.008336 seconds
+  Import took 0.011834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.328787 seconds.
+  path: Assets/Enemy/Robo1/Textures/Aim.png
+  artifactKey: Guid(db9010bc19236fc4e821910a42762873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Robo1/Textures/Aim.png using Guid(db9010bc19236fc4e821910a42762873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448da58347ca40d536b36dcb38abb34e') in 0.228480 seconds
+  Import took 0.231950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004343 seconds.
+  path: Assets/Enemy/Robo1/Textures/Aim.png
+  artifactKey: Guid(db9010bc19236fc4e821910a42762873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/Robo1/Textures/Aim.png using Guid(db9010bc19236fc4e821910a42762873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448da58347ca40d536b36dcb38abb34e') in 0.008830 seconds
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.772303 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4046a180f20dc1606632198e8c7c8424') in 0.113120 seconds
+  Import took 0.116750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.233258 seconds.
+  path: Assets/New Material 1.mat
+  artifactKey: Guid(b685520a30642174aa735ff0387b0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 1.mat using Guid(b685520a30642174aa735ff0387b0bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab29c0850349ae58e9fa6801906ef28') in 0.034445 seconds
+  Import took 0.037334 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000692 seconds.
+Registered in 0.001242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.3 MB.
+System memory in use after: 138.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1737.
+Total: 2.961000 ms (FindLiveObjects: 0.542000 ms CreateObjectMapping: 0.153800 ms MarkObjects: 2.150000 ms  DeleteObjects: 0.113100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000787 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -1948,73 +1485,15 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.943 seconds
 Platform modules already initialized, skipping
-Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1147 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 2.543000 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.096000 ms MarkObjects: 1.913600 ms  DeleteObjects: 0.126400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 674.862153 seconds.
-  path: Assets/Scripts/NPCController.cs
-  artifactKey: Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NPCController.cs using Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937a5ad05a0256207b6b027810fef2c9') in 0.009805 seconds
-  Import took 0.013256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023582 seconds.
-  path: Assets/Scripts/NPCController.cs
-  artifactKey: Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NPCController.cs using Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937a5ad05a0256207b6b027810fef2c9') in 0.001912 seconds
-  Import took 0.005199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.410376 seconds.
-  path: Assets/Scripts/NPCController.cs
-  artifactKey: Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NPCController.cs using Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f779146cc22874b78c5e174b5becb9f') in 0.002158 seconds
-  Import took 0.004795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005948 seconds.
-  path: Assets/Scripts/NPCController.cs
-  artifactKey: Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NPCController.cs using Guid(687ea738995f6874a91782c7689a20bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f779146cc22874b78c5e174b5becb9f') in 0.002253 seconds
-  Import took 0.005185 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001246 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
-Platform modules already initialized, skipping
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
-Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1147 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.6 MB.
-System memory in use after: 152.7 MB.
+Unloading 1149 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.3 MB.
+System memory in use after: 138.4 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1883.
-Total: 2.130300 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.051500 ms MarkObjects: 1.795900 ms  DeleteObjects: 0.085000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1740.
+Total: 2.327300 ms (FindLiveObjects: 0.166700 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.994500 ms  DeleteObjects: 0.108500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
