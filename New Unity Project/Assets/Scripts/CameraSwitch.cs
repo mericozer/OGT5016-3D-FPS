@@ -73,7 +73,7 @@ public class CameraSwitch : MonoBehaviour
         
         isMapActive = map;
         
-        light.SetActive(!map);
+        //light.SetActive(!map);
 
         TabletController.instance.isMapActive = isMapActive;
         TabletController.instance.FocusPlayer();

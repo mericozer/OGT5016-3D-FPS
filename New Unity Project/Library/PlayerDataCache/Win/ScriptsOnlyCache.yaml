@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - EnemyController
     - FirstPersonCamera
     - GameManager
+    - GeneratorButton
     - Gun
     - GunScript
     - MovePanel
@@ -35,8 +36,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -159,6 +162,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3522}
     - Class: 114
       Script: {instanceID: 3612}
+    - Class: 114
+      Script: {instanceID: 86646}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -180,6 +185,8 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -221,6 +228,8 @@ ScriptsOnlyBuild:
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
@@ -525,7 +534,7 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: 4982e7fbe6e3ce5cbf0b2b3a5fb94cee
+      Hash: abada204b7d93e260c3c71b36532c626
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -955,9 +964,15 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GunScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GeneratorButton
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level1DQ.unity
-  playerPath: D:/PC/Documents/OGT5016-3D-FPS/New Unity Project/Builds/PC/New Unity
+  playerPath: D:/PC/Documents/OGT5016-3D-FPS/New Unity Project/Builds/PC V2/New Unity
     Project.exe

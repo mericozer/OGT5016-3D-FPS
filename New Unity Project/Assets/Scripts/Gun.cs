@@ -53,6 +53,7 @@ public class Gun : MonoBehaviour
             if (Input.GetKey(KeyCode.R)) //if bullet ends in gun, player can reload
             {
                 StartCoroutine(Reload());
+                PlayerController.instance.Reload(true);
                 
             }
             return;
@@ -61,6 +62,7 @@ public class Gun : MonoBehaviour
         if (Input.GetKey(KeyCode.R)) //if bullet ends in gun, player can reload
         {
             StartCoroutine(Reload());
+            PlayerController.instance.Reload(true);
             return;
         }
 
@@ -91,7 +93,7 @@ public class Gun : MonoBehaviour
     private IEnumerator Reload()
     {
         isReloading = true;
-        
+       
         yield return new WaitForSeconds(reloadTime);
         
         //ammo reload u cilala
@@ -116,6 +118,7 @@ public class Gun : MonoBehaviour
         }
         
         CanvasController.instance.Reload(currentClip, currentAmmo);
+        PlayerController.instance.Reload(false);
         isReloading = false;
     }
 

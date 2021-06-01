@@ -11,7 +11,13 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private LayerMask groundLayer;
 
-    [SerializeField] private float speed = 10f;
+    private Animator anim;
+    [SerializeField] private Animator shotGunAnim;
+    [SerializeField] private Animator autoGunAnim;
+ 
+    private float speed;
+    [SerializeField] private float normalSpeed = 10f;
+    [SerializeField] private float runSpeed = 20f;
     [SerializeField] private float gravity = -10f;
     [SerializeField] private float offset = -10f;
 
@@ -28,6 +34,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         charController = GetComponent<CharacterController>();
+        speed = normalSpeed;
     }
 
     // Update is called once per frame
@@ -41,10 +48,30 @@ public class PlayerController : MonoBehaviour
             {
                 velocity.y = -1f;
             }
+            
+            
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                speed = runSpeed;
+            }
+
+            if (Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                speed = normalSpeed;
+            }
         
         
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
+
+            if (x != 0 || z != 0)
+            {
+                anim.SetBool("Walk", true);
+            }
+            else
+            {
+                anim.SetBool("Walk", false);
+            }
 
             Vector3 movementDirection = transform.right * x + transform.forward * z;
 
@@ -55,5 +82,21 @@ public class PlayerController : MonoBehaviour
             charController.Move(velocity * Time.deltaTime);
         }
         
+    }
+
+    public void ChangeGun(int index)
+    {
+        if (index == 0)
+        {
+            anim = shotGunAnim;
+        }
+        else
+        {
+            anim = autoGunAnim;
+        }
+    }
+    public void Reload(bool reload)
+    {
+        anim.SetBool("Reload", reload);
     }
 }

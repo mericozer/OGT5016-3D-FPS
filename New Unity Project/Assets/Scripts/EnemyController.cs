@@ -49,8 +49,8 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         //navAI.isStopped = false;
-        Vector3 targerVector = target.transform.position - transform.forward;
-        float angle = Vector3.Angle(targerVector, transform.forward);
+        Vector3 targetVector = target.transform.position - transform.forward;
+        float angle = Vector3.Angle(targetVector, transform.forward);
         float distance = Vector3.Distance(target.transform.position, transform.position);
         
         if (distance <= maxRange)
@@ -69,15 +69,16 @@ public class EnemyController : MonoBehaviour
             }
             else //player is in the enemy range but enemy doesn't see the player
             {
-                if (attackTimer < 0.7f)
-                {
-                    attackTimer = 0.7f;
-                }
+               
                 Patrol();
             }
         }
         else //player is not in the enemy range
         {
+            if (attackTimer < 0.7f)
+            {
+                attackTimer = 0.7f;
+            }
             Patrol();
         }
 

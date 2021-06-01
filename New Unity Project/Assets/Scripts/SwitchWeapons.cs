@@ -69,6 +69,7 @@ public class SwitchWeapons : MonoBehaviour
             if (weaponIndex == i)
             {
                 weapon.gameObject.SetActive(true);
+                PlayerController.instance.ChangeGun(weaponIndex);
             }
             else
             {
